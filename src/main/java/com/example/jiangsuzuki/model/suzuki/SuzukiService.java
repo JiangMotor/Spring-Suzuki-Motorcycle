@@ -20,6 +20,7 @@ public class SuzukiService {
             y.setImg_suzuki(from.getImg_suzuki());
             y.setName_suzuki(from.getName_suzuki());
             y.setVideo_suzuki(from.getVideo_suzuki());
+            y.setCategory(from.getCategory());
 
             System.out.println(y);
             suzuki.save(y);
@@ -36,6 +37,7 @@ public class SuzukiService {
            y.setImg_suzuki(from.getImg_suzuki());
             y.setName_suzuki(from.getName_suzuki());
             y.setVideo_suzuki(from.getVideo_suzuki());
+            y.setCategory(from.getCategory());
    
             suzuki.save(y);
            return true;
